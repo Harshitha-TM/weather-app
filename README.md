@@ -1,6 +1,7 @@
 # weather-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Displays current weather data. API from https://www.weatherapi.com is used for weather forecast.
+Bar Chart displays five cities current temperature. 
 
 ## Available Scripts
 
