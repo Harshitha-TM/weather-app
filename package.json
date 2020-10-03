@@ -14,11 +14,15 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "npm start",
+    "build": "npm build",
+    "test": "npm test",
+    "eject": "npm eject"
   },
+  "engines": {
+  "node": "0.10.41",
+  "npm": "1.4.29"
+}
   "eslintConfig": {
     "extends": "react-app"
   },
