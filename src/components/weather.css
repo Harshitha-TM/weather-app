@@ -1,0 +1,84 @@
+/* header section */
+.buttonStyle {
+    border: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+    background-color: white;
+    outline: none;
+}
+
+.buttonStyle:active,
+.buttonStyle:focus,
+.buttonStyle:hover {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.buttonStyle:hover {
+    background-color: hsla(194, 68%, 80%, 0.3);
+}
+.navApp {
+    min-height: 120px;
+    padding: 0 0 5px 10px;
+    background-color: hsla(194, 4%, 39%, 0.3);
+    border: hsla(197, 43%, 51%, 0.3);
+    position: relative;
+}
+.buttons {
+    text-align: right;
+    padding: 120px 50px 10px 10px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.details-container {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    background: #cde4f1;
+    flex-direction: row;
+    text-align: center;
+}
+.identiy {
+    font-size: 20px;
+    display: table-row;
+}
+.metric {
+    font-size: 0.75em;
+    color: #000000;
+    margin: 0 0 0 4px;
+    font-weight: 500;
+}
+.vector {
+    font-size: 20px;
+    display: table-row;
+    margin-left: 5px;
+}
+.align-left {
+    text-align: left;
+    padding-left: 40px;
+}
+.tempNum {
+    height: 90px;
+    float: left;
+    font-size: 80px;
+    color: #ffea51;
+}
+.unitWrap {
+    color: #ffea51;
+    font-size: 1.7em;
+}
+@media(max-width: 600px) {
+    .flex-container {
+        flex-direction: row;
+    }
+}
