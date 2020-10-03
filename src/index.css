@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,Georgia, serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: hsla(89, 43%, 51%, 0.3);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body > #root > div {
+  position: absolute;   
+  width: 100% !important;   
+  height: 100% !important;
+
+}
+html, body, #app {
+  position: absolute;   
+  width: 100% !important;   
+  height: 100% !important;
+}
+
