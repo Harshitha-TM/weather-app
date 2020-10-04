@@ -5,7 +5,7 @@ function ErrorPage()
 { 
 return ( 
 <div className="errorSection">
-<h4>Sorry, API's are down.</h4> 
+<h4>Sorry, Please try again.</h4> 
 <img src={ErrorIcon}  alt="" width="120px" height="130px"></img>
 </div>
 ); 

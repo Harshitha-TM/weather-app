@@ -61,7 +61,7 @@ class WeatherChart extends React.Component {
       ]
     };
     return (
-      <MDBContainer>
+      <MDBContainer style={{height:"250px", minwidth: "300px" ,backgroundcolor: "#cde4f1"}} lg="6" >
         <h5 className="mt-3">All Cities Graph</h5>
         <Bar data={dataBar} options={this.state.barChartOptions} />
       </MDBContainer>

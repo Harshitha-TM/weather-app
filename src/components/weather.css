@@ -3,14 +3,12 @@
     border: white;
     cursor: pointer;
     padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 5px;
     border-radius: 2px;
     transition-duration: 0.4s;
     background-color: white;
     outline: none;
 }
-
 .buttonStyle:active,
 .buttonStyle:focus,
 .buttonStyle:hover {
@@ -18,11 +16,11 @@
     outline: none;
     background-color: white;
 }
-
 .buttonStyle:hover {
     background-color: hsla(194, 68%, 80%, 0.3);
 }
 .navApp {
+    margin: 0px !important;
     min-height: 120px;
     padding: 0 0 5px 10px;
     background-color: hsla(194, 4%, 39%, 0.3);
@@ -31,7 +29,7 @@
 }
 .buttons {
     text-align: right;
-    padding: 120px 50px 10px 10px;
+    padding: 120px 50px 0px 0px;
 }
 .flex-container {
     display: flex;
@@ -44,7 +42,7 @@
     height: 40px;
     padding: 5px;
     margin: 5px;
-    background: #cde4f1;
+    background: #c6d6e0;
     flex-direction: row;
     text-align: center;
 }

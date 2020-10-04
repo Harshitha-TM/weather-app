@@ -12,8 +12,6 @@ class HeaderTab extends React.Component{
       <div >
       <nav className=" row navApp">
       {/* pick the city to display weather forecast */}
-     
-
       <div className="align-left col-sm-6">
         { this.props.cityForecast ? 
         this.props.cityForecast.map(function(cast, i){        
